@@ -8,6 +8,9 @@ module "ip_range_ec2" {
   service = "EC2_INSTANCE_CONNECT"
 }
 
+
+
+
 output "ec2_ip_range_for_us_east_1" {
   value = module.ip_range_ec2.cidrs
 }
